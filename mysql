@@ -1,0 +1,23 @@
+CREATE TABLE cloudapp.user (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(45),
+  `last_name` varchar(45),
+  `email_id` varchar(45),
+  `password` varchar(45),
+  `is_admin` varchar(45),
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+CREATE TABLE cloudapp.user (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(45),
+  `last_name` varchar(45),
+  `email_id` varchar(45),
+  `password` varchar(45),
+  `is_admin` varchar(45),
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
